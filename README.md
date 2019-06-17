@@ -9,6 +9,6 @@ Feel free to make a PR to add!
 
 ```
 npm install tang-poems -g
-tang-poems 
+poem
 ```
 
