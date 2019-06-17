@@ -1,8 +1,7 @@
-cat-ascii-faces
+tang-poems
 ===============
 
 
-This is (extremely) inspired by https://github.com/maxogden/cool-ascii-faces
 
 Feel free to make a PR to add!
 
