@@ -1,4 +1,4 @@
-tang-poems[![Build Status](https://travis-ci.org/Carrie999/poems.svg?branch=master)](https://travis-ci.org/carrie999/poems)
+tang-poems [![Build Status](https://travis-ci.org/Carrie999/poems.svg?branch=master)](https://travis-ci.org/carrie999/poems)
 ===============
 <img src="screenshot.gif" width="660">
 
