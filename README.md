@@ -15,15 +15,14 @@ npm install tang-poems -g   or  npm install tang-poems
 ### Usage --global  
 ```
 $ poem --help
-	Usage
-	    $ poem [options]
+  Usage
+    $ poem [options]
 
-	Examples
-		$ poem 
-		不知江月待何人，但见长江送流水。
+  Examples
+    $ poem     不知江月待何人，但见长江送流水。
 
-	Options
-	  --all -a     Show all the poems content  //展示全部文章
+  Options
+    --all -a     Show all the poems content 
 ```
 
 ### Usage local
