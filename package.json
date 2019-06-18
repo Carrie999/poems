@@ -1,26 +1,35 @@
 {
   "name": "tang-poems",
-  "version": "0.0.1",
-  "description": "Everyday get a poem!",
-  "main": "cli.js",
+  "version": "1.0.0",
+  "description": "Everyday get a tang-poem!",
+  "main": "./index.js",
   "bin": {
     "poem": "./cli.js"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "node ./test.js"
   },
-  "author": "melanie cebula",
-  "license": "BSD",
+  "author": "carrie",
   "repository": {
     "type": "git",
-    "url": "https://github.com/carrie999/poem"
+    "url": "https://github.com/carrie999/poems"
   },
   "bugs": {
-    "url": "https://github.com/carrie999/poem/issues"
+    "url": "https://github.com/carrie999/poems/issues"
   },
-  "homepage": "https://github.com/carrie999/poem",
+  "homepage": "https://github.com/carrie999/poems",
+  "license": "MIT",
+  "keywords": [
+    "cli-app",
+    "cli",
+    "poems",
+    "chinese",
+    "tang",
+    "everyday",
+    "neural"
+  ],
   "dependencies": {
-    "request": "^2.88.0"
-  },
-  "devDependencies": {}
+    "got": "^9.6.0",
+    "meow": "^5.0.0"
+  }
 }

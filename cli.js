@@ -1,12 +1,24 @@
-const util = require('util')
-var request = require('request');
+#!/usr/bin/env node
+'use strict'
+const meow = require('meow')
+const tangPoems = require('.')
 
-var getPromise = util.promisify(request.get);
+const cli = meow(`
+  Usage
+    $ poem [-a]
 
-let res = getPromise('https://v2.jinrishici.com/one.json').then(({body})=>{
-  body = JSON.parse(body)
-  console.log(body.data.content)
-}).catch((err)=>{
-  console.error(err)
-})
+  Examples
+    $ poem 
+    $ poem -a
+`);
 
+let isALL = false
+
+if (cli.flags.a || cli.flags.all) {
+  isALL = true
+}
+
+(async () => {
+  const poem = await tangPoems(isALL)
+  console.log(poem)
+})();
