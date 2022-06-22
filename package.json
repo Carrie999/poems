@@ -29,7 +29,7 @@
     "neural"
   ],
   "dependencies": {
-    "got": "^9.6.0",
+    "got": "^11.8.5",
     "meow": "^5.0.0"
   }
 }
